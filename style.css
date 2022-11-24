@@ -46,13 +46,3 @@ body {
     grid-row: rows / rows 4;
    grid-column: clm / clm 2;
 }
-
-.e2 {
-    grid-row: rows 2 / rows 4;
-    grid-column: clm 3 / clm 3;
-}
-
-.b2 {
-    grid-row: rows 1 / rows 1;
-    grid-column: clm 2 / clm-end;
-}
