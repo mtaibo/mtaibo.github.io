@@ -1,12 +1,43 @@
 
 body {
-    background: #eee;
-/*  font-family: 'Courier New', Courier, monospace; */
+    background: #080019;
     font-family: 'Nunito', sans-serif;
-    padding: 50px;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
-p {
-    width: 700px;
-    height: 100px;
+/* NAVIGATION BAR */
+
+.top-bar {
+    background-color: #080059;
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item {
+    float: left;
+    padding: 17px;
+}
+
+.inicio {
+    background-color: #080099;
+}
+
+.inicio:hover {
+    background-color: #060075;
+    cursor: pointer;
+}
+
+.about {
+    float: right;
+}
+
+.about:hover {
+    background-color: #060075;
+    cursor: pointer;
 }
