@@ -1,6 +1,10 @@
 
+:root {
+    --item-hover-color: #58b0ac;
+}
+
 body {
-    background: #080019;
+    background: #343642;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     color: white;
@@ -11,33 +15,30 @@ body {
 /* NAVIGATION BAR */
 
 .top-bar {
-    background-color: #080059;
+    background-color: #69757c;
     list-style: none;
     position: fixed;
     width: 100%;
     padding: 0px;
     margin: 0px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
 }
 
 .item {
     float: left;
-    padding: 17px;
+    padding: 15px;
 }
 
-.inicio {
-    background-color: #080099;
-}
-
-.inicio:hover {
-    background-color: #060075;
+.item:hover {
+    border-bottom: 4px solid var(--item-hover-color);
+    color: var(--item-hover-color);
+    padding-bottom: 11px;
     cursor: pointer;
 }
 
-.about {
-    float: right;
-}
+/* BOXES */
 
-.about:hover {
-    background-color: #060075;
-    cursor: pointer;
+p {
+    margin: 0px;
+    margin-bottom: 30px;
 }
