@@ -15,24 +15,27 @@ body {
 /* NAVIGATION BAR */
 
 .top-bar {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
     background-color: #69757c;
+    font-size: 18px;
     list-style: none;
     position: fixed;
     width: 100%;
     padding: 0px;
     margin: 0px;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
 }
 
 .item {
     float: left;
-    padding: 15px;
+    padding: 10px;
 }
 
 .item:hover {
     border-bottom: 4px solid var(--item-hover-color);
     color: var(--item-hover-color);
-    padding-bottom: 11px;
+    padding-bottom: 6px;
     cursor: pointer;
 }
 
@@ -41,4 +44,11 @@ body {
 p {
     margin: 0px;
     margin-bottom: 30px;
+}
+
+.content {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
 }
