@@ -50,21 +50,6 @@ body {
     cursor: pointer;
 }
 
-.navicon {
-    padding: 7px;
-}
-
-.navicon:hover {
-    border-bottom: 0px;
-    color: white;
-    padding-bottom:0px;
-    cursor: pointer;
-}
-
-.navicon:hover img {
-    
-}
-
 /* BOXES */
 
 p {
