@@ -3,6 +3,16 @@
     --item-hover-color: #58b0ac;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #495257b8;
+    border-radius: 6px;
+    border-right: 3px solid #343642;
+}
+
 body {
     background: #343642;
     font-family: 'Nunito', sans-serif;
@@ -10,6 +20,7 @@ body {
     color: white;
     padding: 0px;
     margin: 0px;
+    transition: all 200ms;
 }
 
 /* NAVIGATION BAR */
@@ -37,6 +48,21 @@ body {
     color: var(--item-hover-color);
     padding-bottom: 6px;
     cursor: pointer;
+}
+
+.navicon {
+    padding: 7px;
+}
+
+.navicon:hover {
+    border-bottom: 0px;
+    color: white;
+    padding-bottom:0px;
+    cursor: pointer;
+}
+
+.navicon:hover img {
+    
 }
 
 /* BOXES */
